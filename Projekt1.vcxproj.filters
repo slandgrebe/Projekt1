@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="MyWindow.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderProgram.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="MyInput.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="World.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Model.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="data\ColorMultUniform.frag">
+      <Filter>Data</Filter>
+    </None>
+    <None Include="data\PosOnlyWorldTransformUBO.vert">
+      <Filter>Data</Filter>
+    </None>
+    <None Include="data\ColorPassthrough.frag">
+      <Filter>Data</Filter>
+    </None>
+    <None Include="data\ColorUniform.frag">
+      <Filter>Data</Filter>
+    </None>
+    <None Include="data\PosColorWorldTransformUBO.vert">
+      <Filter>Data</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{5ec39f67-c28f-4a71-9b48-65f36d4a1122}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data">
+      <UniqueIdentifier>{be15c3a3-3e3d-444e-83c7-a348190df936}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MyWindow.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderProgram.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="MyInput.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="World.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Model.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
